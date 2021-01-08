@@ -6,7 +6,7 @@ app.get('/', (req,res) => {
     res.send('app 1');
 });
 
-const port = 80;
+const port = 8080;
 app.listen(port, () => {
   console.log(' API listening on port', port);
 });
